@@ -9,3 +9,4 @@ list4 = [1, 2, myfunc]
 list4[2]()
 
 # List is the most fuction to use as Sequence data.
+# List is used sign [].
