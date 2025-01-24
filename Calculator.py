@@ -22,4 +22,3 @@ multiplication(2, 3)
 divide(6, 3)
 power(2, 2)
 remainder(6, 4)
-
