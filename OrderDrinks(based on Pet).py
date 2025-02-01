@@ -2,6 +2,9 @@ class OrderDrink():
     def __init__(self, name, kind):
         self.name = name
         self.kind = kind
+    
+    def getOrder(self):
+        print("Please, select your order.")
 
 class Bavarage(OrderDrink):
     def __init__(self, name):
@@ -20,6 +23,7 @@ class Alcohol(OrderDrink):
 
 
 order1 = Bavarage(name = "Iced tea")
+order1.getOrder()
 order2 = Alcohol(name = "Cass")
 print(order1)
 print(order2)
