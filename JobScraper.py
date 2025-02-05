@@ -30,4 +30,5 @@ for job in jobs:
         all_jobs.append(job_data)
     except:
         pass
+
 print(all_jobs)
